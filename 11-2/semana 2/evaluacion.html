@@ -1,0 +1,22 @@
+<script>
+    var horas=0;
+    horas=parseInt(prompt("ingrese las horas"),0);
+    var minutos=0;
+    var segundos=0;
+    minutos=parseInt(prompt("ingrese los minutos"),0)
+    segundos=parseInt(prompt("ingrese los segundos"),0)
+    var minutos_a_horas;
+    minutos_a_horas=minutos/60;
+    var segundos_a_horas;
+    segundos_a_horas=segundos/3600;
+    var horas_a_horas;
+    horas_a_horas=horas/1;
+    document.writeln("el resultado de la conversion minuto/hora es:"+minutos_a_horas + "<BR>");
+    document.writeln("el resultado de la conversion segundos/hora es:"+segundos_a_horas+ "<BR>");
+    document.writeln("el resultado de la conversion hora/hora es:"+ horas_a_horas+ "<BR>");
+    var total_horas;
+    total_horas=minutos_a_horas+segundos_a_horas+horas_a_horas;
+    document.writeln("el total de horas es:"+ total_horas+ "<BR>");
+    
+    
+    </script>

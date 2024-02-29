@@ -1,0 +1,21 @@
+<script>
+    //Juan Manuel ejercicio 2 lanzamiento de dados
+    var dado1;
+    var par;
+    var impar;
+    var dado2;
+    var lanzamiento;
+    dado1 = parseInt(prompt("digite un numero"));
+    dado2 = parseInt(prompt("digite un numero"));
+    if (dado1 == dado2) {
+        document.writeIn("par<BR>")
+    } else {
+        document.write("lanzamiento<BR>")
+    } if (dado1 + dado2 < 6) {
+        document.write("juego perdido<BR>")
+    } if (dado1 < 3 || dado2 < 3) {
+        document.write("puntaje deficiente<BR>")
+    } if (dado1 > 4 || dado2 > 4) {
+        document.write("puntaje alto<BR>")
+    }
+</script>
